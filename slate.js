@@ -4,8 +4,8 @@ var ctx = c.getContext("2d");
 ctx.fillStyle = "#00f0fa";
 
 c.addEventListener('click', function(event) {
-    var x = event.clientX - 50;     // Get the horizontal coordinate
-    var y = event.clientY - 80;     // Get the vertical coordinate
+    var x = event.clientX - 10;     // Get the horizontal coordinate
+    var y = event.clientY - 60;     // Get the vertical coordinate
     ctx.fillRect(x,y,Math.random()*100,Math.random()*100);
 });
 
